@@ -1,0 +1,179 @@
+html,body{
+	margin :0;
+	font-family: Supermarketed;
+}
+
+header{
+	/*background: rgb(0,28,255);
+	background: linear-gradient(180deg, rgba(0,28,255,1) 0%, rgba(0,251,255,1) 100%);*/
+
+	/*	background: rgb(88,148,179);
+	background: linear-gradient(180deg, rgba(88,148,179,1) 0%, rgba(0,142,255,0.78) 35%);*/
+
+	 background: rgb(88,148,179);
+	background: linear-gradient(180deg, rgba(88,148,179,1) 0%, rgba(0,255,243,1) 96%); 
+}
+
+ul{
+	list-style-type: none;
+}
+
+#pub1{
+	padding-top: 200px; 
+	padding-left: 150px;
+	padding-bottom: 200px;
+	   background: rgb(69,174,167);
+background: linear-gradient(180deg, rgba(69,174,167,1) 0%, rgba(56,74,74,1) 100%); 
+}
+
+#logoBandB1{
+	width: 20%;
+	height: 20%;
+}
+#img_bebe{
+	width: 30%;
+	height: 30%;
+}
+
+#description_OuiCrèches{
+	width: 600px;
+	margin-left: 500px;
+	margin-top: -230px;
+}
+
+#formulaire{
+	display: none;
+}
+
+#lien_formulaire,#envoyer_message{
+	background-color: #67fe6e;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+}
+footer p{
+	text-align: center;
+}
+footer{
+	background: rgb(88,148,179);
+	background: linear-gradient(180deg, rgba(0,255,243,1) 0%,rgba(88,148,179,1) 96%); 
+
+	height: 50px;
+	margin-top: -20px;
+}
+
+/*MEDIA QUERIES*/
+/*and (min-width: ) and (max-width: )*/
+@media screen and (min-width: 1301.6px) and (max-width: 1430.4px){
+	#img_bebe{
+		margin-left: -130px;
+	}
+
+	#description_OuiCrèches{
+		margin-left: 270px;	
+	}
+
+	footer{
+		margin-top: 0px;
+		height: 70px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#pub1{
+		padding-top: 200px; 
+		padding-left: 150px;
+		padding-bottom: 200px;
+	}
+}
+
+@media screen and (min-width: 1256px) and (max-width: 1301.6px){
+	footer{
+		margin-top: 0px;
+		height: 70px;
+		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+	#img_bebe{
+		margin-left: -150px;
+		margin-top: 20px;
+	}
+	#description_OuiCrèches{
+		margin-left: -145px;
+		margin-top: -430px;
+	}
+	#pub1{
+		padding-top: 200px; 
+		padding-left: 150px;
+		padding-bottom: 300px;
+	}
+}
+
+@media screen and (min-width:1155.2px ) and (max-width: 1256px){
+	footer{
+		margin-top: 0px;
+		height: 70px;
+		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+	#img_bebe{
+		margin-left: -150px;
+		margin-top: 20px;
+	}
+	#description_OuiCrèches{
+		margin-left: -145px;
+		margin-top: -410px;
+	}
+	#pub1{
+		padding-top: 200px; 
+		padding-left: 150px;
+		padding-bottom: 300px;
+	}
+}
+
+@media screen and (min-width: 1042.4px) and (max-width: 1155.2px){
+	footer{
+		margin-top: 0px;
+		height: 75px;
+		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+	#img_bebe{
+		margin-left: -150px;
+		margin-top: 30px;
+		margin-bottom: -50px;
+	}
+	#description_OuiCrèches{
+		margin-left: -145px;
+		margin-top: -350px;
+	}
+	#pub1{
+		padding-top: 200px; 
+		padding-left: 150px;
+		padding-bottom: 300px;
+	}
+
+}
+
+@media screen and (max-width: 1042.4px){
+	footer{
+		margin-top: 0px;
+		height: 75px;
+		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+	#img_bebe{
+		margin-left: -150px;
+		margin-top: 40px;
+		margin-bottom: -50px;
+	}
+	#description_OuiCrèches{
+		margin-left: -145px;
+		margin-top: -350px;
+	}
+	#pub1{
+		padding-top: 200px; 
+		padding-left: 150px;
+		padding-bottom: 300px;
+	}
+
+}

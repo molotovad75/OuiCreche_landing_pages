@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Landing page - Parents 1 </title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<header>
+			<img src="Images/OuiCrèchesLogo.png" id="logoBandB1">
+			<meta charset="UTF-8" />
+			<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+			<script type="text/javascript" src="JS/script.js"></script>
+		</header>
+
+
+		<div id="corps">
+			<section id="pub1">
+				
+
+				<div id="description_OuiCrèches">
+					<p>Marre de ne pas trouver des crèches disponibles selon vos envies ? Ou bien vous ne savez pas comment faire garder vos enfants de manière sûre
+					pendant que vous êtes indisponible pour lui ? <br> Essayer notre nouvelle plateforme de réservation en ligne OuiCrèches </p>
+					<ul>
+						<li>C'est gratuit</li>
+						<li>Simple et rapide</li>
+						<li>Ergonomique</li>
+					</ul>
+					<p> Alors fonçez sans plus attendre et remplissez notre formulaire de contact.</p>
+					<input type="button" name="lien_formulaire" id="lien_formulaire" value="Accéder au formulaire" onclick="afficher_cacher_formulaire('formulaire','lien_formulaire')" />
+				</div>
+				<img src="Images/bebe.jpg" id="img_bebe">
+			
+			</section>
+
+			<section id="formulaire">
+				<h2 id="h2">Formulaire de contact </h2>
+				<form method="post" action="" >
+					<input type="text" name="pseudo" id="pseudo" placeholder="pseudo"/><br><br>
+					<input type="text" name="num_tel" id="num_tel" placeholder="num_tel" /><br><br>
+					<input type="email" name="adresse_mail" id="adresse_mail" placeholder="adresse mail" /><br><br>
+					<textarea rows="8" cols="45" maxlength="65525" name="message" id="message" placeholder="Ecrivez un message"></textarea><br><br>
+					<input type="submit" name="envoyer_message" id="envoyer_message" value="Envoyer" />
+				</form>
+			
+			</section>
+		</div>
+		
+		<footer id="footer">
+			<p>Une publicité de la société OuiCrèches FRANCE</p>
+
+		</footer>
+	</body>
+</html>
