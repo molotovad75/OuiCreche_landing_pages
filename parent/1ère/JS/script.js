@@ -11,29 +11,33 @@ function afficher_cacher_formulaire(formulaire,btn_formulaire) {
 
 	var footer=document.getElementById("footer");
 	var pub1=document.getElementById("pub1");
+	var description_OuiCrèches=document.getElementById("description_OuiCrèches");
 
-	pseudo_field.style.marginLeft = "500px";
+	/*pseudo_field.style.marginLeft = "500px";
 	num_tel_field.style.marginLeft = "500px";
 	adresse_mail_field.style.marginLeft = "500px";
 	message_field.style.marginLeft = "500px";
 	envoyer_message_btn.style.marginLeft = "500px";
-	h2_text.style.marginLeft = "500px";
-	
+	h2_text.style.marginLeft = "500px";*/
+	description_OuiCrèches.style.marginTop="-20px";
+
 	if (btn_click.value=="Cacher le formulaire") {
 		form.style.display = "none";	
 		btn_click.value="Accéder au formulaire";
 		footer.style.marginTop="-20px";
-
+		description_OuiCrèches.style.marginTop="-20px";
 		pub1.style.paddingTop="200px";
-		pub1.style.paddingBottom="200px";
+		pub1.style.paddingBottom="150px";
 
 	}else if (btn_click.value=="Accéder au formulaire") {
 		form.style.display = "inline";
+		form.style.marginBottom="50px";
 		btn_click.value="Cacher le formulaire";	
 		footer.style.paddingBottom="0px";
 		footer.style.marginTop="-10px";
 		pub1.style.paddingTop="20px";
-		pub1.style.paddingBottom="50px";
+		pub1.style.paddingBottom="250px";
+		description_OuiCrèches.marginTop="-20px";
 	}
 	
 	
