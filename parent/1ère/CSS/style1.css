@@ -136,13 +136,111 @@ footer{
 /*DEZOOM*/
 
 
-@media screen and (min-width: 1519.2px) and (min-height: 747.25px){
+@media screen and (min-width: 1519.2px) and (min-height: 747.25px) and (max-width: 1920px) and (max-height: 898.167px){
 	footer{
 		height: 100px;
 	}
 
 	footer p{
 		padding-top: 50px;
+	}
+}
+@media screen and (min-width: 1920px) and (min-height: 898.167px) and (max-width: 2208px) and (max-height: 1011.75px){
+	footer{
+		height: 140px;
+		margin-top: -30px;
+	}
+	footer p{
+		padding-top: 50px;
+		font-size: 25px;
+	}
+	#description_OuiCrèches{
+		margin-left: 600px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 20px;
+		
+	}
+
+}
+
+@media screen and (min-width: 2208px) and (min-height: 1011.75px) and (max-width: 2560px) and (max-height: 1174.23px){
+	footer{
+		height: 160px;
+		margin-top: -40px;
+	}
+	footer p{
+		padding-top: 50px;
+		font-size: 25px;
+	}
+	#description_OuiCrèches{
+		margin-left: 700px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 20px;
+		
+	}
+}
+
+@media screen and (min-width: 2560px) and (min-height: 1174.23px) and (max-width: 3072px) and (max-height: 1372.87px){
+	footer{
+		height: 170px;
+		margin-top: -40px;
+	}
+	footer p{
+		padding-top: 50px;
+		font-size: 30px;
+	}
+	#description_OuiCrèches{
+		margin-left: 800px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 30px;
+		
+	}
+
+	#lien_formulaire,#formulaire,#pseudo,#num_tel,#adresse_mail,#message,#envoyer_message{
+		font-size: 30px;
+	}
+
+	#img_bebe{
+		margin-top: -400px;
+	}
+
+
+}
+
+@media screen and (min-width: 3072px) and (min-height: 1372.87px){
+	footer{
+		height: 170px;
+		margin-top: -30px;
+	}
+	footer p{
+		padding-top: 50px;
+		font-size: 30px;
+	}
+	#description_OuiCrèches{
+		margin-left: 900px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 30px;
+		
+	}
+
+	#lien_formulaire,#formulaire,#pseudo,#num_tel,#adresse_mail,#message,#envoyer_message{
+		font-size: 30px;
+	}
+
+	#img_bebe{
+		margin-top: -400px;
+	}
+
+	#pub1{
+		padding-bottom: 500px;
 	}
 }
 
