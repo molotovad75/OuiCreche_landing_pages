@@ -132,6 +132,20 @@ footer{
 		width: 300px;
 	}
 }
+
+/*DEZOOM*/
+
+
+@media screen and (min-width: 1519.2px) and (min-height: 747.25px){
+	footer{
+		height: 100px;
+	}
+
+	footer p{
+		padding-top: 50px;
+	}
+}
+
 /*@media screen and (min-width: 1301.6px) and (max-width: 1430.4px){
 	#img_bebe{
 		margin-left: -130px;

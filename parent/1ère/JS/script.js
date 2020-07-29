@@ -13,12 +13,6 @@ function afficher_cacher_formulaire(formulaire,btn_formulaire) {
 	var pub1=document.getElementById("pub1");
 	var description_OuiCrèches=document.getElementById("description_OuiCrèches");
 
-	/*pseudo_field.style.marginLeft = "500px";
-	num_tel_field.style.marginLeft = "500px";
-	adresse_mail_field.style.marginLeft = "500px";
-	message_field.style.marginLeft = "500px";
-	envoyer_message_btn.style.marginLeft = "500px";
-	h2_text.style.marginLeft = "500px";*/
 	description_OuiCrèches.style.marginTop="-20px";
 
 	if (btn_click.value=="Cacher le formulaire") {
@@ -38,6 +32,7 @@ function afficher_cacher_formulaire(formulaire,btn_formulaire) {
 		pub1.style.paddingTop="20px";
 		pub1.style.paddingBottom="250px";
 		description_OuiCrèches.marginTop="-20px";
+		
 	}
 	
 	
