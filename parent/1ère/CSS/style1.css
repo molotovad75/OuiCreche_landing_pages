@@ -213,7 +213,7 @@ footer{
 
 }
 
-@media screen and (min-width: 3072px) and (min-height: 1372.87px){
+@media screen and (min-width: 3072px) and (min-height: 1372.87px) and (max-width: 3840px) and (max-height: 1705.33px){
 	footer{
 		height: 170px;
 		margin-top: -30px;
@@ -244,6 +244,70 @@ footer{
 	}
 }
 
+
+@media screen and (min-width: 3840px) and (min-height: 1705.33px) and (max-width: 5120px) and (max-height: 2370.12px){
+	footer{
+		height: 260px;
+		margin-top: -40px;
+		padding-bottom: 40px;
+	}
+	footer p{
+		padding-top: 90px;
+		font-size: 40px;
+	}
+	#description_OuiCrèches{
+		margin-left: 1500px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 30px;
+		
+	}
+
+	#lien_formulaire,#formulaire,#pseudo,#num_tel,#adresse_mail,#message,#envoyer_message{
+		font-size: 30px;
+	}
+
+	#img_bebe{
+		margin-top: -400px;
+	}
+
+	#pub1{
+		padding-bottom: 600px;
+	}
+}
+
+@media screen and (min-width: 5120px) and (min-height: 2370.12px){
+	footer{
+		height: 300px;
+		margin-top: -40px;
+		padding-bottom: 40px;
+	}
+	footer p{
+		padding-top: 90px;
+		font-size: 40px;
+	}
+	#description_OuiCrèches{
+		margin-left: 2000px;
+
+	}
+	#description_OuiCrèches p,#description_OuiCrèches ul li{
+		font-size: 40px;
+		
+	}
+
+	#lien_formulaire,#formulaire,#pseudo,#num_tel,#adresse_mail,#message,#envoyer_message{
+		font-size: 40px;
+	}
+
+	#img_bebe{
+		margin-top: -700px;
+	}
+
+	#pub1{
+		padding-bottom: 900px;
+	}
+}
 /*@media screen and (min-width: 1301.6px) and (max-width: 1430.4px){
 	#img_bebe{
 		margin-left: -130px;
